@@ -33,7 +33,16 @@
 
   <h1>Welcome to the SM-test!</h1>
 
-  <button>Start</button>
+  <button onclick="startTest()">Start</button>
+
+<script>
+  function startTest() {
+    document.body.innerHTML = `
+      <h1>SM Test</h1>
+      <h2>Category: Technology</h2>
+    `;
+  }
+</script>
 
 </body>
 </html>
